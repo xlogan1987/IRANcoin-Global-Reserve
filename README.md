@@ -333,4 +333,101 @@ contract IRANcoin {
         }
     }
 }
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+LISTING IRANcoin Global Reserve
+x.com : https://x.com/IRANcoinGlobal
+website : https://irancoin.godaddysites.com/
+IRANcoin listing sites :
 
+https://icoholder.com/en/irancoin-global-reserve-1101693               *****
+
+https://icolink.com/ico-irancoin-global-reserve.html             *****
+
+https://topicolist.com/irancoin-global-reserve     ****
+
+https://coinranking.com/coin/Sttq5gLYw+irancoinglobalreserve-ircoin       ****
+
+https://coincodex.com/crypto/irancoin-global-reserve/            ***
+
+https://www.livecoinwatch.com/price/IRANcoinGlobalReserve-IRCOIN       **
+
+https://www.coinscope.co/coin/ircoin      *
+
+https://cryptonextgem.com/irancoin/
+
+https://www.cyberscope.io/embed/cyberscan?network=BASE&address=0x49ba5d9a00115d494a01fb938ebd94bd919aa445
+
+https://coinvote.cc/en/coin/IRANcoin-Global-Reserve        *
+
+https://coincheckup.com/coins/irancoin-global-reserve       *
+
+https://coinbazooka.com/coin/irancoin-global-reserve-ircoin        *
+
+https://coindiscovery.app/coin/irancoin-global-reserve/overview
+
+https://top100token.com/base/0x49BA5D9A00115D494a01fb938EBd94BD919AA445
+
+https://coinsniper.net/coin/84365           ***
+
+https://coinboom.net/coin/irancoin-global-reserve
+
+https://www.perplexity.ai/search/tell-me-about-the-coin-irancoi-5MBtEaP7TZ6fB9oCJ87alQ
+
+https://www.sushi.com/base/swap?token0=NATIVE&token1=0x49ba5d9a00115d494a01fb938ebd94bd919aa445&swapAmount=1000
+
+https://www.dexview.com/base/0x49BA5D9A00115D494a01fb938EBd94BD919AA445
+
+https://cointoplist.net/coin/irancoin-global-reserve/
+and many more best sites
+blockchain is base network :  
+
+https://basescan.org/token/0x49ba5d9a00115d494a01fb938ebd94bd919aa445
+
+and contract address :
+0x49BA5D9A00115D494a01fb938EBd94BD919AA445
+
+AND LISTED ON BLOCKSCOUT CHAIN WITH GREEN TIK AND LOGO : 
+https://base.blockscout.com/token/0x49BA5D9A00115D494a01fb938EBd94BD919AA445
+and now have 129 holders
+i attach image IRANcoin 200x200x png :
+
+https://i.ibb.co/Cp2WQ46s/IRANcoin-LLC-FOR-IRAN-PEOPLE-200x200x.png
+
+ABOUT IRANcoin Global Reserve :
+IRANcoin Global Reserve (IRCOIN) is a cryptocurrency aiming to function as a global payment network by utilizing a basket of fiat-pegged stablecoins stabilized by its own IRcoin reserve currency, with Bitget being one of the exchanges where it can be traded. However, it is important to distinguish this cryptocurrency from a traditional reserve currency, which is a foreign currency held by central banks for international transactions and is typically stable and widely accepted, a status the IRANcoin does not currently hold. 
+What IRANcoin Global Reserve is:
+A decentralized digital currency: IRANcoin Global Reserve (IRCOIN) is a cryptocurrency designed for global payments and to promote financial fairness and accessibility.
+A blockchain-based project: It is deployed on the BASE blockchain and supports various token standards, with a goal to rebuild the traditional payment infrastructure on the blockchain.
+A financial ecosystem: The network aims to facilitate programmable payments and open financial infrastructure, using a combination of stablecoins and an IRcoin reserve currency. 
+Key Differences from a Global Reserve Currency:
+Traditional Reserve Currencies: These are foreign currencies held by central banks and are known for their stability and widespread use in international transactions. The U.S. dollar is currently the dominant world reserve currency.
+Volatility and Adoption: IRANcoin, like other cryptocurrencies, faces significant volatility and lacks the broad institutional acceptance and stability needed to become a global reserve currency.
+Purpose: While IRANcoin aims to create a new economic and financial technology, its purpose is distinct from a traditional reserve currency, which serves as a store of value and a medium for international trade and investment for central banks.
+************************
+IRANcoin Global Reserve (IRCOIN) is an Iranian digital cryptocurrency deployed on the BASE blockchain, supporting token standards ERC-20, ERC-721, and ERC-1155. It is designed as a decentralized financial payment network aiming to rebuild traditional payment systems on the blockchain by using a basket of fiat-pegged stablecoins stabilized algorithmically by the reserve currency IRCOIN. Its goal is to create a programmable, stable, and accessible global payment ecosystem originating from Iran's economic and technological context.
+
+Key details include:
+
+Deployed on May 18, 2025
+Extremely large total and circulating supply: about 720 sextillion IRCOIN tokens
+Traded mainly on decentralized exchanges like Uniswap (V3) and PancakeSwap (v2)
+Market activity and liquidity currently appear very low or inactive, with minimal reported trading volume and price data
+There are around 101 holders, with some large holders controlling millions of tokens
+Intended to enhance global financial fairness, accessibility, and innovation with algorithmic stablecoins backed by IRCOIN as reserve currency
+While the coin is ambitious in its scope as a blockchain-based payment network from Iran, it currently lacks significant market presence or adoption and shows signs of being very new. The official website is https://irancoin.godaddysites.com/ and it has a Telegram channel for community contact.
+
+In summary, IRANcoin Global Reserve (IRCOIN) is a token aiming to build a decentralized, stable, and programmable payment infrastructure facilitated by an Iranian-origin stablecoin-backed blockchain system, though active usage and market liquidity seem minimal at this time.
+
+ 
+
+IRANcoin Global Reserve (IRCOIN) is a digital cryptocurrency originating from Iran, designed to enhance global financial fairness, accessibility, and innovation. Launched on May 18, 2025, it operates on the BASE blockchain and supports multiple token standards including ERC-20, ERC-721, and ERC-1155.
+
+The coin aims to create a decentralized financial payment network that rebuilds traditional payment systems by using a basket of fiat-pegged stablecoins algorithmically stabilized by IRcoin as the reserve currency. This setup is intended to facilitate programmable payments and the development of open financial infrastructure, with a focus on global financial fairness and innovation.
+
+Key details of IRANcoin Global Reserve include:
+
+Total and circulating supply is extraordinarily large, around 720 sextillion (7.2×10^38) IRcoins.
+The coin is traded on decentralized exchanges like Uniswap (V3) and PancakeSwap (V2), but currently shows very low or no active trading volume and liquidity.
+It positions itself as a global payment system token, especially for Iranians, aiming to enhance economic and blockchain technology globally.
+The project remains in early stages with limited market activity and adoption.
+In summary, IRANcoin Global Reserve is an ambitious attempt to develop a stablecoin-backed decentralized payment platform with roots in Iran’s economic context. It aims to provide a foundational asset for innovative, stable, and scalable digital payment solutions, although it is currently a niche and emerging project with minimal market presence so far.
