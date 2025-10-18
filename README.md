@@ -334,10 +334,14 @@ contract IRANcoin {
     }
 }
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-LISTING IRANcoin Global Reserve
+ LISTING IRANcoin Global Reserve
 x.com : https://x.com/IRANcoinGlobal
 website : https://irancoin.godaddysites.com/
 IRANcoin listing sites :
+
+https://www.platinumcryptoacademy.com/demo/irancoin-global-reserve-ircoin-launches-to-reshape-global-digital-payments       ******
+github :
+https://github.com/xlogan1987/IRANcoin-Global-Reserve
 
 https://icoholder.com/en/irancoin-global-reserve-1101693               *****
 
@@ -431,3 +435,7 @@ The coin is traded on decentralized exchanges like Uniswap (V3) and PancakeSwap 
 It positions itself as a global payment system token, especially for Iranians, aiming to enhance economic and blockchain technology globally.
 The project remains in early stages with limited market activity and adoption.
 In summary, IRANcoin Global Reserve is an ambitious attempt to develop a stablecoin-backed decentralized payment platform with roots in Iran’s economic context. It aims to provide a foundational asset for innovative, stable, and scalable digital payment solutions, although it is currently a niche and emerging project with minimal market presence so far.
+
+
+
+https://www.youtube.com/watch?v=smoazBykgiM
