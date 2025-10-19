@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IRANcoin Mastercard Gateway</title>
+    <script src="https://test-gateway.mastercard.com/form/version/XX/session.js" defer></script>
+</head>
+<body>
+    <h1>IRANcoin Mastercard Payment Gateway</h1>
+    <div id="payment-form">
+        <button id="pay-btn">Pay with Mastercard</button>
+        <div id="session"></div>
+    </div>
+    <script>
+        // SHAHIN MALEKI RAD FOR ALL WORLD - GLOBAL REVOLUTION
+        // SPDX-License-Identifier: GLOBAL-ECONOMIC-REVOLUTION
+        // Converted from Solidity to JS for Mastercard Integration
+
+        class SafeMath {
+            static add(a, b) { const c = a + b; if (c < a) throw new Error("Overflow"); return c; }
+            static sub(a, b) { if (b > a) throw new Error("Underflow"); return a - b; }
+            static mul(a, b) { if (a === 0) return 0; const c = a * b; if (c / a !== b) throw new Error("Overflow"); return c; }
+            static div(a, b) { if (b === 0) throw new Error("Division by zero"); return Math.floor(a / b); }
+        }
+
+        class IRANcoinMastercardGateway {
+            constructor() {
+                this.name = "IRANcoin Global Reserve";
+                this.symbol = "IRcoin";
+                this.decimals = 18;
+                this.totalSupply = 720000000000000000000000000000000000000000000000000000000000n;
+                this.balances = new Map();
+                this.allowances = new Map();
+                this.merchantId = "YOUR_MERCHANT_ID";
+                this.apiVersion = "XX";
+                this.sessionId = null;
+                this.initData();
+                this.initLiquidity();
+                this.configureMastercard();
+            }
+
+            // Shortened banks and networks
+            iranianBanks = ["0x1A038F1d8F7520564492e310F374533FCECa58D0", "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD"];
+            internationalBanks = ["0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db", "0xdfAE1737de9d4E56428c5C7B35A9318EB8C9397B"];
+            paymentNetworks = ["0x14723A09ACff6D2A60DcdF7aA4AFf308FDDC160C", "0x4B0897b0513fdC7C541B6d9D7E929C4e5364D2dB", "0x583031D1113aD414F02576BD6afaBfb302140225"];
+            exchanges = ["0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"];
+            cryptoReserves = ["0x617F2E2fD72FD9D5503197092aC168c91465E7f2"];
+
+            initData() {
+                this.iranianBanks.forEach(bank => this._mint(bank, 1000000000000000000000000000000n * (10n ** 18n)));
+                this.internationalBanks.forEach(bank => this._mint(bank, 1000000000000000000000000000000000000000000000000n * (10n ** 18n)));
+                this.paymentNetworks.forEach(net => this._mint(net, 10000000000000000000000n * (10n ** 18n)));
+                this.exchanges.forEach(ex => this._mint(ex, 10000000000000000000000n * (10n ** 18n)));
+                this.cryptoReserves.forEach(res => this._mint(res, 1000000000000000000000000000000n * (10n ** 18n)));
+            }
+
+            initLiquidity() {
+                const liquidity = 99999999999999999999999999999999999999999999999999999999999n * (10n ** 18n);
+                this._mint("0x31193F2378CE7D06482b21EDb547a060267cA4d5", liquidity);
+            }
+
+            configureMastercard() {
+                if (typeof PaymentSession === 'undefined') return console.error("SDK not loaded");
+                PaymentSession.configure({
+                    merchantId: this.merchantId,
+                    session: { enabled: true },
+                    interaction: { displayControl: { format: 'CARD', merchant: 'LOGO' } }
+                });
+                this.sessionId = PaymentSession.getSessionId();
+            }
+
+            balanceOf(account) { return this.balances.get(account) || 0n; }
+
+            transfer(recipient, amount) {
+                this._transfer(window.location.origin, recipient, amount);
+                return true;
+            }
+
+            _transfer(sender, recipient, amount) {
+                if (!sender || !recipient) throw new Error("Invalid address");
+                const senderBal = this.balances.get(sender) || 0n;
+                const recipBal = this.balances.get(recipient) || 0n;
+                this.balances.set(sender, SafeMath.sub(senderBal, amount));
+                this.balances.set(recipient, SafeMath.add(recipBal, amount));
+                console.log(`Transfer: ${sender} -> ${recipient}: ${amount}`);
+            }
+
+            _mint(account, amount) {
+                if (!account) throw new Error("Invalid mint");
+                const bal = this.balances.get(account) || 0n;
+                this.balances.set(account, SafeMath.add(bal, amount));
+                console.log(`Minted: ${account}: ${amount}`);
+            }
+
+            antiHack(fn) {
+                if (document.origin !== window.location.origin) throw new Error("Cross-origin prohibited");
+                return fn();
+            }
+
+            dailyGrowth() {
+                this.antiHack(() => {
+                    if (window.location.origin !== 'https://yourdomain.com') throw new Error("Owner only");
+                    [...this.balances.entries()].forEach(([acc, bal]) => {
+                        this.balances.set(acc, SafeMath.mul(bal, 101n) / 100n);
+                    });
+                });
+            }
+
+            swiftTransfer(fromBank, toBank, amount) {
+                this.antiHack(() => {
+                    if (!this.isBank(fromBank) || !this.isBank(toBank)) throw new Error("Banks only");
+                    this._transfer(fromBank, toBank, amount);
+                    const fee = SafeMath.div(amount, 10000n);
+                    this._transfer(fromBank, '', fee);
+                });
+            }
+
+            isBank(addr) {
+                return [...this.iranianBanks, ...this.internationalBanks].includes(addr);
+            }
+
+            async processMastercardPayment(amount, currency = 'IRR', recipientBank) {
+                return new Promise((resolve, reject) => {
+                    this.antiHack(() => {
+                        PaymentSession.setPaymentTokenizeMode(PaymentSession.TOKENIZE_MODE_TRANSIENT);
+                        PaymentSession.updateSessionFromForm('payment-form');
+                        const response = PaymentSession.getPaymentTokenizeResponse();
+                        if (response.status === 'SUCCESS') {
+                            fetch('/api/charge', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ sessionId: this.sessionId, amount: amount.toString(), currency, recipient: recipientBank || this.paymentNetworks[2] })
+                            }).then(res => res.json()).then(data => {
+                                const converted = this.nationalCurrencyConversion(amount, currency);
+                                resolve({ success: true, convertedAmount: converted, txId: data.transactionId });
+                            }).catch(reject);
+                        } else reject(new Error("Payment failed"));
+                    });
+                });
+            }
+
+            forexBridge(platform, amount) {
+                if (!this.isRegisteredForex(platform)) throw new Error("Not registered");
+                return this.transfer(platform, amount);
+            }
+
+            isRegisteredForex(platform) { return this.exchanges.includes(platform); }
+
+            goldBackup(goldAmount) { return SafeMath.mul(goldAmount, 1000n); }
+            oilBackup(oilBarrels) { return SafeMath.mul(oilBarrels, 100n); }
+
+            nationalCurrencyConversion(amount, currencyCode) {
+                switch (currencyCode) {
+                    case 'USD': return SafeMath.mul(amount, 100n);
+                    case 'EUR': return SafeMath.mul(amount, 85n);
+                    case 'IRR': return SafeMath.mul(amount, 4200000n);
+                    default: throw new Error("Unsupported currency");
+                }
+            }
+        }
+
+        const gateway = new IRANcoinMastercardGateway();
+
+        document.getElementById('pay-btn').addEventListener('click', () => {
+            PaymentSession.setMode('PAYMENT_TRANSACTION');
+            document.getElementById('session').innerHTML = PaymentSession.getHostedPaymentFields();
+            gateway.processMastercardPayment(100n * (10n ** 18n), 'USD', '0x583031D1113aD414F02576BD6afaBfb302140225')
+                .then(result => alert(`Success! Converted: ${result.convertedAmount} USD`))
+                .catch(err => alert(`Error: ${err.message}`));
+        });
+
+        setInterval(() => gateway.dailyGrowth(), 86400000);
+    </script>
+</body>
+</html>
