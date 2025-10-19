@@ -1,0 +1,41 @@
+name: Pylint
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.12"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pylint
+    - name: Run pylint
+      run: |
+        # Replace 'src/' with your Python source directory if needed
+        pylint **/*.py || true  # '|| true' to avoid failure on warnings
+        
+        [![Pylint](https://github.com/xlogan1987/IRANcoin-Global-Reserve/actions/workflows/pylint.yml/badge.svg)](https://github.com/xlogan1987/IRANcoin-Global-Reserve/actions/workflows/pylint.yml)
+        
+        name: Solhint
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install Solhint
+      run: npm install -g solhint
+    - name: Run Solhint
+      run: solhint "**/*.sol" || true
+      
+      [![Solhint](https://github.com/xlogan1987/IRANcoin-Global-Reserve/actions/workflows/solhint.yml/badge.svg)](https://github.com/xlogan1987/IRANcoin-Global-Reserve/actions/workflows/solhint.yml)[](url)
