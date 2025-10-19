@@ -1,0 +1,523 @@
+<x Middle name="web_search">
+<parameter name="query">Mastercard Developers CSR requirements 2025</parameter
+<parameter name="num_results">10</parameter
+</xai:function_ar name="multiple">true</parameter
+</xai:function_call
+
+****************************************************
+-----BEGIN CERTIFICATE REQUEST-----
+MIIEuzCCA6ugAwIBAgIBADANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCSVIx
+DzANBgNVBAgTBFRlaHJhbjEUMBIGA1UEBxMLVGVocmFuMQswCQYDVQQKEwJZTzES
+MBAGA1UECxMJVW5pdCBEZXBhcnRtZW50MSYwJAYDVQQDEx1pcmFuYXBwLm1hc3Rl
+cmNhcmQuY29tMB4XDTI1MTAxOTAyMDAwMFoXDTI2MTAxOTAyMDAwMFowgYgxCzAJ
+BgNVBAYTAklSMQ8wDQYDVQQIEwZUZWhyYW4xFDASBgNVBAcTC1RlaHJhbjELMAkG
+A1UEChMCSU8xIzAhBgNVBAsTGk9yZ2FuaXphdGlvbmFsIFVuaXQxJjAkBgNVBAMT
+HWlyYW5hcHAubWFzdGVyY2FyZC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCx5z/0z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1
+z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z
+4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6
+z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z
+9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1
+z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7zCAQAwDQYJKoZ
+IhvcNAQELBQADggEBAM1234567890abcdef1234567890abcdef1234567890abc
+def1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcde
+f1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef12
+34567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234
+567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+-----END CERTIFICATE REQUEST-----
+*********************************************************
+openssl req -out csr.pem -key existing_key.pem -new -sha256 -subj "/C=IR/ST=Tehran/L=Tehran/O=Your Organization/CN=iranapp.mastercard.com"
+********************************************************
+openssl pkcs12 -in existing_key.p12 -nocerts -out existing_key.pem
+***************************************************************
+-----BEGIN CERTIFICATE REQUEST-----
+MIIEkjCCA3qgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UEBhMCVVMx
+EzARBgNVBAgTCkNhbGlmb3JuaWExETAPBgNVBAcTCFNhbiBGcmFuY2lzY29XMQsw
+CQYDVQQKEwJZb3VyT3JnMREwDwYDVQQLEwhZb3VyRGVwdDELMAkGA1UEAxMCS0ox
+MB4XDTI1MTAxOTAyMDAwMFoXDTI2MTAxOTAyMDAwMFowgbIxCzAJBgNVBAYTAlVT
+MRMwEQYDVQQIEwpDYWxpZm9ybmlhMRUwEwYDVQQHEwxTYW4gRnJhbmNpc2NvMRUw
+EwYDVQQKEwxZb3VyIE9yZ2FuaXphdGlvbjERMA8GA1UECxMIVW5pdCBBMTElMCMG
+A1UEAxMcWW91cmFwcC5tYXN0ZXJjYXJkLmNvbTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBANjZf5Z5zX3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z
+2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z
+4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z
+6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z
+8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z0z1z2z3z4z5z6z7z8z9z
+CAQAwDQYJKoZIhvcNAQELBQADggEBAK+1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef
+-----END CERTIFICATE REQUEST-----
+***************************************************************************
+openssl req -new -newkey rsa:2048 -nodes -keyout private.key -out csr.csr -sha256 -subj "/C=IR/ST=Tehran/L=Tehran/O=Your Organization/CN=iranapp.mastercard.com"
+*********************************************************************
+-----BEGIN CERTIFICATE REQUEST-----
+MIICvDCCAaQCAQAwgYkxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlh
+MRUwEwYDVQQHEwxTYW4gRnJhbmNpc2NvMRUwEwYDVQQKEwxZb3VyIE9yZ2FuaXph
+dGlvbjElMCMGA1UEAxMcWW91cmFwcC5tYXN0ZXJjYXJkLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAMZx4ZfKz5z2j3kL4m5n6oPqR8sT9uV0w1x2
+y3z4A5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0A1b2c3d
+4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6A7b8c9d0e1f2g3h4i5
+j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2A3b4c5d6e7f8g9h0i1j2k3l4m5n6o
+7p8q9r0s1t2u3v4w5x6y7z8A9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8
+u9v0w1x2y3z4A5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z
+CAQAwDQYJKoZIhvcNAQELBQADggEBAJ1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
+1234567890abcdef1234567890abcdef
+-----END CERTIFICATE REQUEST-----
+**************************************************************************
+openssl req -new -newkey rsa:2048 -nodes -keyout private.key -out csr.csr -sha256 -subj "/C=US/ST=California/L=San Francisco/O=Your Organization/CN=yourapp.mastercard.com"
+************************************************************************
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>IRANcoin</title><script src="https://test-gateway.mastercard.com/form/version/58/session.js" defer></script></head><body><h1>IRANcoin Gateway</h1><div id="pf"><button id="pb">Pay</button><div id="s"></div></div><script>class SM{static a(a,b){c=a+b;if(c<a)throw E("O");return c;}static s(a,b){if(b>a)throw E("U");return a-b;}static m(a,b){if(a==0)return 0;c=a*b;if(c/a!=b)throw E("O");return c;}static d(a,b){if(b==0)throw E("D0");return a/b;}}class IG{constructor(){this.n="IRANcoin";this.b=new Map();this.mId="YOUR_ID";this.bs=["0x1A038F1d8F7520564492e310F374533FCECa58D0","0x583031D1113aD414F02576BD6afaBfb302140225"];this.bs.forEach(b=>this._mt(b,1e30n*10n**18n));this.cf();}cf(){if(typeof PS==='undefined')return;PS.configure({merchantId:this.mId,session:{enabled:true},interaction:{displayControl:{format:'CARD'}}});}bO(a){return this.b.get(a)||0n;}tr(r,a){this._tr(window.location.origin,r,a);return true;}_tr(s,r,a){if(!s||!r)throw E("Inv");sb=this.b.get(s)||0n;rb=this.b.get(r)||0n;this.b.set(s,SM.s(sb,a));this.b.set(r,SM.a(rb,a));console.log(`Tr ${s}->${r}:${a}`);}_mt(a,am){if(!a)throw E("Inv");b=this.b.get(a)||0n;this.b.set(a,SM.a(b,am));console.log(`Mt ${a}:${am}`);}ah(f){if(document.origin!=window.location.origin)throw E("Pro");return f();}async pp(a,c='IRR'){return new Promise((res,rej)=>{this.ah(()=>{if(typeof PS==='undefined'){rej(E("SDK"));return;}PS.setPaymentTokenizeMode(PS.TOKENIZE_MODE_TRANSIENT);PS.updateSessionFromForm('pf');const rp=PS.tokenize();if(rp&&rp.status==='SUCCESS'){mockTx='TX_'+Date.now();const con=this.cc(a,c);setTimeout(()=>{res({s:true,ca:con,tx:mockTx});},300);}else rej(E("Fail"))});});}cc(a,cc){switch(cc){case'USD':return SM.m(a,100n);case'EUR':return SM.m(a,85n);case'IRR':return SM.m(a,4200000n);default:throw E("Uns");}}gb(g){return SM.m(g,1000n);}ob(o){return SM.m(o,100n);}}const g=new IG();document.getElementById('pb').addEventListener('click',async()=>{try{PS.setMode('PAYMENT_TRANSACTION');document.getElementById('s').innerHTML=PS.getHostedPaymentFields();const r=await g.pp(100n*10n**18n,'USD');alert(`Success! ${r.ca} USD | TX: ${r.tx}`);}catch(e){alert(`Error: ${e.message}`);}});setInterval(()=>g.dg(),86400000);function E(m){throw new Error(m);}function dg(){console.log("Daily growth");}var PS=PaymentSession;</script></body></html>
+**********************************************************************
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>IRANcoin Mastercard Gateway</title><script src="https://test-gateway.mastercard.com/form/version/58/session.js" defer></script></head><body><h1>IRANcoin Payment</h1><div id="payment-form"><button id="pay-btn">Pay with Mastercard</button><div id="session"></div></div><script>class SafeMath{static add(a,b){const c=a+b;if(c<a)throw Error("Overflow");return c;}static sub(a,b){if(b>a)throw Error("Underflow");return a-b;}static mul(a,b){if(a===0n)return 0n;const c=a*b;if(c/a!==b)throw Error("Overflow");return c;}static div(a,b){if(b===0n)throw Error("Division by zero");return a/b;}}class IRANcoinGateway{constructor(){this.name="IRANcoin Global";this.symbol="IRcoin";this.decimals=18;this.totalSupply=720000000000000000000000000000000000000000000000000000000000n;this.balances=new Map();this.merchantId="YOUR_MERCHANT_ID_HERE";this.banks=["0x1A038F1d8F7520564492e310F374533FCECa58D0","0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2","0x583031D1113aD414F02576BD6afaBfb302140225"];this.exchanges=["0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"];this.initBalances();this.configureMastercard();}initBalances(){this.banks.forEach(bank=>{this._mint(bank,1000000000000000000000000000000n*(10n**18n));});this.exchanges.forEach(ex=>{this._mint(ex,10000000000000000000000n*(10n**18n));});const liquidity=99999999999999999999999999999999999999999999999999999999999n*(10n**18n);this._mint("0x31193F2378CE7D06482b21EDb547a060267cA4d5",liquidity);}configureMastercard(){if(typeof PaymentSession==='undefined'){console.error("Mastercard SDK not loaded. Check URL.");return;}PaymentSession.configure({merchantId:this.merchantId,session:{enabled:true},interaction:{displayControl:{format:'CARD',merchant:'LOGO'}}});console.log("Mastercard configured. Session ID:",PaymentSession.getSessionId());}balanceOf(account){return this.balances.get(account)||0n;}transfer(recipient,amount){const sender=window.location.origin;this._transfer(sender,recipient,amount);return true;}_transfer(sender,recipient,amount){if(!sender||!recipient)throw Error("Invalid address");const senderBal=this.balances.get(sender)||0n;const recipBal=this.balances.get(recipient)||0n;this.balances.set(sender,SafeMath.sub(senderBal,amount));this.balances.set(recipient,SafeMath.add(recipBal,amount));console.log(`Transfer: ${sender} -> ${recipient}: ${amount}`);}_mint(account,amount){if(!account)throw Error("Invalid mint to zero");const bal=this.balances.get(account)||0n;this.balances.set(account,SafeMath.add(bal,amount));console.log(`Minted: ${account}: ${amount}`);}antiHack(fn){if(document.origin!==window.location.origin)throw Error("Prohibited: Cross-origin not allowed");return fn();}dailyGrowth(){this.antiHack(()=>{if(window.location.origin!=='https://yourdomain.com')throw Error("Only owner can call");[...this.balances.entries()].forEach(([acc,bal])=>{this.balances.set(acc,SafeMath.div(SafeMath.mul(bal,101n),100n));});console.log("Daily growth applied");});}isBank(addr){return this.banks.includes(addr);}swiftTransfer(fromBank,toBank,amount){this.antiHack(()=>{if(!this.isBank(fromBank)||!this.isBank(toBank))throw Error("Only banks can transfer");this._transfer(fromBank,toBank,amount);const fee=SafeMath.div(amount,10000n);this._transfer(fromBank,this.merchantId,fee);console.log("SWIFT transfer complete");});}async processPayment(amount,currency='IRR',recipient=this.banks[2]){return new Promise((resolve,reject)=>{this.antiHack(()=>{if(typeof PaymentSession==='undefined'){reject(Error("SDK not ready"));return;}PaymentSession.setPaymentTokenizeMode(PaymentSession.TOKENIZE_MODE_TRANSIENT);PaymentSession.updateSessionFromForm('payment-form');const response=PaymentSession.tokenize();if(response&&response.status==='SUCCESS'){// Mock backend charge for democonst mockTxId='TX_'+Date.now();const converted=this.currencyConversion(amount,currency);console.log("Payment tokenized:",response);setTimeout(()=>{resolve({success:true,convertedAmount:converted,txId:mockTxId,token:response.paymentToken});},500);}else{reject(Error("Tokenization failed: "+(response?response.status:'No response')));}}});}currencyConversion(amount,currencyCode){switch(currencyCode){case'USD':return SafeMath.mul(amount,100n);case'EUR':return SafeMath.mul(amount,85n);case'IRR':return SafeMath.mul(amount,4200000n);default:throw Error("Unsupported currency");}}goldBackup(goldAmount){return SafeMath.mul(goldAmount,1000n);}oilBackup(oilBarrels){return SafeMath.mul(oilBarrels,100n);}}const gateway=new IRANcoinGateway();document.getElementById('pay-btn').addEventListener('click',async()=>{try{PaymentSession.setMode('PAYMENT_TRANSACTION');const fields=PaymentSession.getHostedPaymentFields();document.getElementById('session').innerHTML=fields;const result=await gateway.processPayment(100n*(10n**18n),'USD');alert(`Success! Converted: ${result.convertedAmount} USD | TX: ${result.txId}`);console.log("Full result:",result);}catch(err){alert(`Error: ${err.message}`);console.error(err);}});setInterval(()=>gateway.dailyGrowth(),86400000);// Daily cron</script></body></html>
+********************************************************************
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>IRANcoin</title><script src="https://test-gateway.mastercard.com/form/version/XX/session.js" defer></script></head><body><h1>IRANcoin Mastercard</h1><div id="payment-form"><button id="pay-btn">Pay</button><div id="session"></div></div><script>class SafeMath{static add(a,b){const c=a+b;if(c<a)throw Error("Ovr");return c;}static sub(a,b){if(b>a)throw Error("Und");return a-b;}static mul(a,b){if(a==0)return 0;const c=a*b;if(c/a!=b)throw Error("Ovr");return c;}static div(a,b){if(b==0)throw Error("Div0");return Math.floor(a/b);}}class IRANcoin{constructor(){this.name="IRANcoin";this.balances=new Map();this.merchantId="YOUR_MERCHANT_ID";this.banks=["0x1A038F1d8F7520564492e310F374533FCECa58D0","0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2","0x583031D1113aD414F02576BD6afaBfb302140225"];this.banks.forEach(b=>this._mint(b,1000000000000000000000000000000n*10n**18n));this.configure();}configure(){if(typeof PaymentSession=='undefined')return;PaymentSession.configure({merchantId:this.merchantId,session:{enabled:true},interaction:{displayControl:{format:'CARD'}}});}balanceOf(a){return this.balances.get(a)||0n;}transfer(r,a){this._transfer(window.location.origin,r,a);return true;}_transfer(s,r,a){if(!s||!r)throw Error("Inv");const sb=this.balances.get(s)||0n;const rb=this.balances.get(r)||0n;this.balances.set(s,SafeMath.sub(sb,a));this.balances.set(r,SafeMath.add(rb,a));console.log(`Tr ${s}->${r}:${a}`);}_mint(a,am){if(!a)throw Error("Inv");const b=this.balances.get(a)||0n;this.balances.set(a,SafeMath.add(b,am));console.log(`Mt ${a}:${am}`);}antiHack(f){if(document.origin!=window.location.origin)throw Error("Pro");return f();}async pay(a,c='IRR'){return new Promise((res,rej)=>{this.antiHack(()=>{PaymentSession.setPaymentTokenizeMode(PaymentSession.TOKENIZE_MODE_TRANSIENT);PaymentSession.updateSessionFromForm('payment-form');const rp=PaymentSession.getPaymentTokenizeResponse();if(rp.status=='SUCCESS'){fetch('/api/charge',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({sessionId:PaymentSession.getSessionId(),amount:a.toString(),currency:c})}).then(r=>r.json()).then(d=>{const con=this.conv(a,c);res({success:true,conv:con,tx:d.transactionId});}).catch(rej);}else rej(Error("Failed"));});});}conv(a,cc){switch(cc){case'USD':return SafeMath.mul(a,100n);case'EUR':return SafeMath.mul(a,85n);case'IRR':return SafeMath.mul(a,4200000n);default:throw Error("Uns");}}}const gw=new IRANcoin();document.getElementById('pay-btn').addEventListener('click',()=>{PaymentSession.setMode('PAYMENT_TRANSACTION');document.getElementById('session').innerHTML=PaymentSession.getHostedPaymentFields();gw.pay(100n*10n**18n,'USD').then(r=>alert(`Success! ${r.conv} USD`)).catch(e=>alert(`Err: ${e.message}`));});</script></body></html>
+*********************************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IRANcoin Mastercard Gateway</title>
+    <script src="https://test-gateway.mastercard.com/form/version/XX/session.js" defer></script>
+</head>
+<body>
+    <h1>IRANcoin Mastercard Payment Gateway</h1>
+    <div id="payment-form">
+        <button id="pay-btn">Pay with Mastercard</button>
+        <div id="session"></div>
+    </div>
+    <script>
+        // SHAHIN MALEKI RAD FOR ALL WORLD - GLOBAL REVOLUTION
+        // SPDX-License-Identifier: GLOBAL-ECONOMIC-REVOLUTION
+        // Converted from Solidity to JS for Mastercard Integration
+
+        class SafeMath {
+            static add(a, b) { const c = a + b; if (c < a) throw new Error("Overflow"); return c; }
+            static sub(a, b) { if (b > a) throw new Error("Underflow"); return a - b; }
+            static mul(a, b) { if (a === 0) return 0; const c = a * b; if (c / a !== b) throw new Error("Overflow"); return c; }
+            static div(a, b) { if (b === 0) throw new Error("Division by zero"); return Math.floor(a / b); }
+        }
+
+        class IRANcoinMastercardGateway {
+            constructor() {
+                this.name = "IRANcoin Global Reserve";
+                this.symbol = "IRcoin";
+                this.decimals = 18;
+                this.totalSupply = 720000000000000000000000000000000000000000000000000000000000n;
+                this.balances = new Map();
+                this.allowances = new Map();
+                this.merchantId = "YOUR_MERCHANT_ID";
+                this.apiVersion = "XX";
+                this.sessionId = null;
+                this.initData();
+                this.initLiquidity();
+                this.configureMastercard();
+            }
+
+            // Shortened banks and networks
+            iranianBanks = ["0x1A038F1d8F7520564492e310F374533FCECa58D0", "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD"];
+            internationalBanks = ["0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db", "0xdfAE1737de9d4E56428c5C7B35A9318EB8C9397B"];
+            paymentNetworks = ["0x14723A09ACff6D2A60DcdF7aA4AFf308FDDC160C", "0x4B0897b0513fdC7C541B6d9D7E929C4e5364D2dB", "0x583031D1113aD414F02576BD6afaBfb302140225"];
+            exchanges = ["0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"];
+            cryptoReserves = ["0x617F2E2fD72FD9D5503197092aC168c91465E7f2"];
+
+            initData() {
+                this.iranianBanks.forEach(bank => this._mint(bank, 1000000000000000000000000000000n * (10n ** 18n)));
+                this.internationalBanks.forEach(bank => this._mint(bank, 1000000000000000000000000000000000000000000000000n * (10n ** 18n)));
+                this.paymentNetworks.forEach(net => this._mint(net, 10000000000000000000000n * (10n ** 18n)));
+                this.exchanges.forEach(ex => this._mint(ex, 10000000000000000000000n * (10n ** 18n)));
+                this.cryptoReserves.forEach(res => this._mint(res, 1000000000000000000000000000000n * (10n ** 18n)));
+            }
+
+            initLiquidity() {
+                const liquidity = 99999999999999999999999999999999999999999999999999999999999n * (10n ** 18n);
+                this._mint("0x31193F2378CE7D06482b21EDb547a060267cA4d5", liquidity);
+            }
+
+            configureMastercard() {
+                if (typeof PaymentSession === 'undefined') return console.error("SDK not loaded");
+                PaymentSession.configure({
+                    merchantId: this.merchantId,
+                    session: { enabled: true },
+                    interaction: { displayControl: { format: 'CARD', merchant: 'LOGO' } }
+                });
+                this.sessionId = PaymentSession.getSessionId();
+            }
+
+            balanceOf(account) { return this.balances.get(account) || 0n; }
+
+            transfer(recipient, amount) {
+                this._transfer(window.location.origin, recipient, amount);
+                return true;
+            }
+
+            _transfer(sender, recipient, amount) {
+                if (!sender || !recipient) throw new Error("Invalid address");
+                const senderBal = this.balances.get(sender) || 0n;
+                const recipBal = this.balances.get(recipient) || 0n;
+                this.balances.set(sender, SafeMath.sub(senderBal, amount));
+                this.balances.set(recipient, SafeMath.add(recipBal, amount));
+                console.log(`Transfer: ${sender} -> ${recipient}: ${amount}`);
+            }
+
+            _mint(account, amount) {
+                if (!account) throw new Error("Invalid mint");
+                const bal = this.balances.get(account) || 0n;
+                this.balances.set(account, SafeMath.add(bal, amount));
+                console.log(`Minted: ${account}: ${amount}`);
+            }
+
+            antiHack(fn) {
+                if (document.origin !== window.location.origin) throw new Error("Cross-origin prohibited");
+                return fn();
+            }
+
+            dailyGrowth() {
+                this.antiHack(() => {
+                    if (window.location.origin !== 'https://yourdomain.com') throw new Error("Owner only");
+                    [...this.balances.entries()].forEach(([acc, bal]) => {
+                        this.balances.set(acc, SafeMath.mul(bal, 101n) / 100n);
+                    });
+                });
+            }
+
+            swiftTransfer(fromBank, toBank, amount) {
+                this.antiHack(() => {
+                    if (!this.isBank(fromBank) || !this.isBank(toBank)) throw new Error("Banks only");
+                    this._transfer(fromBank, toBank, amount);
+                    const fee = SafeMath.div(amount, 10000n);
+                    this._transfer(fromBank, '', fee);
+                });
+            }
+
+            isBank(addr) {
+                return [...this.iranianBanks, ...this.internationalBanks].includes(addr);
+            }
+
+            async processMastercardPayment(amount, currency = 'IRR', recipientBank) {
+                return new Promise((resolve, reject) => {
+                    this.antiHack(() => {
+                        PaymentSession.setPaymentTokenizeMode(PaymentSession.TOKENIZE_MODE_TRANSIENT);
+                        PaymentSession.updateSessionFromForm('payment-form');
+                        const response = PaymentSession.getPaymentTokenizeResponse();
+                        if (response.status === 'SUCCESS') {
+                            fetch('/api/charge', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ sessionId: this.sessionId, amount: amount.toString(), currency, recipient: recipientBank || this.paymentNetworks[2] })
+                            }).then(res => res.json()).then(data => {
+                                const converted = this.nationalCurrencyConversion(amount, currency);
+                                resolve({ success: true, convertedAmount: converted, txId: data.transactionId });
+                            }).catch(reject);
+                        } else reject(new Error("Payment failed"));
+                    });
+                });
+            }
+
+            forexBridge(platform, amount) {
+                if (!this.isRegisteredForex(platform)) throw new Error("Not registered");
+                return this.transfer(platform, amount);
+            }
+
+            isRegisteredForex(platform) { return this.exchanges.includes(platform); }
+
+            goldBackup(goldAmount) { return SafeMath.mul(goldAmount, 1000n); }
+            oilBackup(oilBarrels) { return SafeMath.mul(oilBarrels, 100n); }
+
+            nationalCurrencyConversion(amount, currencyCode) {
+                switch (currencyCode) {
+                    case 'USD': return SafeMath.mul(amount, 100n);
+                    case 'EUR': return SafeMath.mul(amount, 85n);
+                    case 'IRR': return SafeMath.mul(amount, 4200000n);
+                    default: throw new Error("Unsupported currency");
+                }
+            }
+        }
+
+        const gateway = new IRANcoinMastercardGateway();
+
+        document.getElementById('pay-btn').addEventListener('click', () => {
+            PaymentSession.setMode('PAYMENT_TRANSACTION');
+            document.getElementById('session').innerHTML = PaymentSession.getHostedPaymentFields();
+            gateway.processMastercardPayment(100n * (10n ** 18n), 'USD', '0x583031D1113aD414F02576BD6afaBfb302140225')
+                .then(result => alert(`Success! Converted: ${result.convertedAmount} USD`))
+                .catch(err => alert(`Error: ${err.message}`));
+        });
+
+        setInterval(() => gateway.dailyGrowth(), 86400000);
+    </script>
+</body>
+</html>
+***************************************************************************************************
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>IRANcoin Mastercard Gateway - پرداخت‌های جهانی قدرتمند</title>
+    <script src="https://test-gateway.mastercard.com/form/version/XX/session.js" defer></script> <!-- XX رو با ورژن sandbox جایگزین کن -->
+</head>
+<body>
+    <h1>پورتال پرداخت IRANcoin با مسترکارت</h1>
+    <div id="payment-form">
+        <button id="pay-btn">پرداخت با مسترکارت</button>
+        <div id="session"></div> <!-- فیلدهای hosted مسترکارت -->
+    </div>
+    <script>
+        // SHAHIN MALEKI RAD FOR ALL WORLD PEOPLE - GLOBAL PAYMENT REVOLUTION $$$$$$$$$$
+        // SPDX-License-Identifier: GLOBAL-ECONOMIC-REVOLUTION
+        // تبدیل شده از Solidity به JS برای Mastercard CSR/API Integration
+
+        class SafeMath {
+            static add(a, b) {
+                const c = a + b;
+                if (c < a) throw new Error("Overflow");
+                return c;
+            }
+            static sub(a, b) {
+                if (b > a) throw new Error("Underflow");
+                return a - b;
+            }
+            static mul(a, b) {
+                if (a === 0) return 0;
+                const c = a * b;
+                if (c / a !== b) throw new Error("Overflow");
+                return c;
+            }
+            static div(a, b) {
+                if (b === 0) throw new Error("Division by zero");
+                return Math.floor(a / b);
+            }
+        }
+
+        class IRANcoinMastercardGateway {
+            constructor() {
+                this.name = "IRANcoin Global Reserve";
+                this.symbol = "IRcoin";
+                this.decimals = 18;
+                this.totalSupply = 720000000000000000000000000000000000000000000000000000000000n; // BigInt برای اعداد بزرگ
+                this.balances = new Map();
+                this.allowances = new Map();
+                this.merchantId = "YOUR_MERCHANT_ID"; // از پنل مسترکارت بگیر
+                this.apiVersion = "XX"; // ورژن API
+                this.sessionId = null;
+                this.initBanksAndNetworks();
+                this.initLiquidity();
+                this.configureMastercardSession();
+            }
+
+            // بانک‌های ایرانی (از کدت)
+            iranianBanks = [
+                "0x1A038F1d8F7520564492e310F374533FCECa58D0", // ملی، ملت و...
+                "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+                "0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+                "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+                "0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c",
+                "0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed"
+            ];
+
+            // بانک‌های بین‌المللی
+            internationalBanks = [
+                "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2", // Bank of America
+                "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db", // JPMorgan
+                // ... بقیه از کدت
+                "0xdfAE1737de9d4E56428c5C7B35A9318EB8C9397B" // owner
+            ];
+
+            // شبکه‌های پرداخت (شامل مسترکارت)
+            paymentNetworks = [
+                "0x14723A09ACff6D2A60DcdF7aA4AFf308FDDC160C", // شتاب
+                "0x4B0897b0513fdC7C541B6d9D7E929C4e5364D2dB", // ویزا
+                "0x583031D1113aD414F02576BD6afaBfb302140225"  // مسترکارت
+            ];
+
+            // صرافی‌ها و رزروهای کریپتو (از کدت)
+            exchanges = ["0x5B38Da6a701c568545dCfcB03FcB875f56beddC4", /*...*/];
+            cryptoReserves = ["0x617F2E2fD72FD9D5503197092aC168c91465E7f2", /*...*/];
+
+            initBanksAndNetworks() {
+                // توزیع اولیه (mint) به بانک‌ها
+                this.iranianBanks.forEach(bank => {
+                    this._mint(bank, 1000000000000000000000000000000n * (10n ** 18n));
+                });
+                this.internationalBanks.forEach(bank => {
+                    this._mint(bank, 1000000000000000000000000000000000000000000000000n * (10n ** 18n));
+                });
+                // ... مشابه برای بقیه
+            }
+
+            initLiquidity() {
+                const liquidity = 99999999999999999999999999999999999999999999999999999999999n * (10n ** 18n);
+                this._mint("0x31193F2378CE7D06482b21EDb547a060267cA4d5", liquidity);
+            }
+
+            configureMastercardSession() {
+                if (typeof PaymentSession === 'undefined') {
+                    console.error("Mastercard Session SDK لود نشده!");
+                    return;
+                }
+                PaymentSession.configure({
+                    merchantId: this.merchantId,
+                    session: {
+                        enabled: true
+                    },
+                    interaction: {
+                        displayControl: {
+                            format: 'CARD', // برای کارت‌های اعتباری
+                            merchant: 'LOGO'
+                        }
+                    }
+                });
+                this.sessionId = PaymentSession.getSessionId();
+            }
+
+            // توابع ERC20-like با BigInt
+            balanceOf(account) {
+                return this.balances.get(account) || 0n;
+            }
+
+            transfer(recipient, amount) {
+                this._transfer(window.origin || '', recipient, amount); // antiHack: چک origin
+                return true;
+            }
+
+            _transfer(sender, recipient, amount) {
+                if (sender === '' || recipient === '') throw new Error("Invalid address");
+                const senderBal = this.balances.get(sender) || 0n;
+                const recipBal = this.balances.get(recipient) || 0n;
+                this.balances.set(sender, SafeMath.sub(senderBal, amount));
+                this.balances.set(recipient, SafeMath.add(recipBal, amount));
+                console.log(`Transfer: ${sender} -> ${recipient}: ${amount}`); // emit-like
+            }
+
+            _mint(account, amount) {
+                if (account === '') throw new Error("Invalid mint");
+                const bal = this.balances.get(account) || 0n;
+                this.balances.set(account, SafeMath.add(bal, amount));
+                console.log(`Minted: ${account}: ${amount}`);
+            }
+
+            // ضد هک
+            antiHack(fn) {
+                if (document.origin !== window.location.origin) {
+                    throw new Error("Prohibited: Cross-origin calls not allowed");
+                }
+                return fn();
+            }
+
+            // رشد روزانه 1%
+            dailyGrowth() {
+                this.antiHack(() => {
+                    if (window.origin !== 'https://yourdomain.com') throw new Error("Only owner");
+                    // اعمال به بالانس‌ها (ساده‌سازی شده)
+                    [...this.balances.entries()].forEach(([acc, bal]) => {
+                        this.balances.set(acc, SafeMath.mul(bal, 101n) / 100n);
+                    });
+                });
+            }
+
+            // پل SWIFT-like برای انتقال بانکی
+            swiftTransfer(fromBank, toBank, amount) {
+                this.antiHack(() => {
+                    if (!this.isBank(fromBank) || !this.isBank(toBank)) throw new Error("Only banks");
+                    this._transfer(fromBank, toBank, amount);
+                    const fee = SafeMath.div(amount, 10000n);
+                    this._transfer(fromBank, '', fee); // به قرارداد
+                });
+            }
+
+            isBank(addr) {
+                return [...this.iranianBanks, ...this.internationalBanks].includes(addr);
+            }
+
+            // ادغام پرداخت مسترکارت
+            async processMastercardPayment(amount, currency = 'IRR', recipientBank) {
+                return new Promise((resolve, reject) => {
+                    this.antiHack(() => {
+                        PaymentSession.setPaymentTokenizeMode(PaymentSession.TOKENIZE_MODE_TRANSIENT);
+                        PaymentSession.updateSessionFromForm('payment-form');
+                        const response = PaymentSession.getPaymentTokenizeResponse();
+                        if (response.status === 'SUCCESS') {
+                            // ارسال به سرور برای شارژ (charge)
+                            fetch('/api/charge', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    sessionId: this.sessionId,
+                                    amount: amount.toString(),
+                                    currency,
+                                    recipient: recipientBank || this.paymentNetworks[2] // مسترکارت
+                                })
+                            }).then(res => res.json()).then(data => {
+                                // تبدیل بر اساس کدت
+                                const converted = this.nationalCurrencyConversion(amount, currency);
+                                resolve({ success: true, convertedAmount: converted, txId: data.transactionId });
+                            }).catch(reject);
+                        } else {
+                            reject(new Error("Payment failed"));
+                        }
+                    });
+                });
+            }
+
+            // اتصال به فارکس/سهام/کریپتو (نمادین)
+            forexBridge(platform, amount) {
+                if (!this.isRegisteredForex(platform)) throw new Error("Not registered");
+                return this.transfer(platform, amount);
+            }
+
+            isRegisteredForex(platform) {
+                return this.exchanges.includes(platform);
+            }
+
+            // مشابه برای stock و crypto...
+
+            // پشتیبان طلا/نفت
+            goldBackup(goldAmount) {
+                return SafeMath.mul(goldAmount, 1000n); // 0.001 گرم
+            }
+
+            oilBackup(oilBarrels) {
+                return SafeMath.mul(oilBarrels, 100n); // 0.01 بشکه
+            }
+
+            // تبدیل ارز
+            nationalCurrencyConversion(amount, currencyCode) {
+                switch (currencyCode) {
+                    case 'USD': return SafeMath.mul(amount, 100n);
+                    case 'EUR': return SafeMath.mul(amount, 85n);
+                    case 'IRR': return SafeMath.mul(amount, 4200000n);
+                    default: throw new Error("Unsupported currency");
+                }
+            }
+        }
+
+        // راه‌اندازی
+        const gateway = new IRANcoinMastercardGateway();
+
+        // هندلر دکمه پرداخت
+        document.getElementById('pay-btn').addEventListener('click', () => {
+            PaymentSession.setMode('PAYMENT_TRANSACTION');
+            document.getElementById('session').innerHTML = PaymentSession.getHostedPaymentFields(); // فیلدهای کارت
+            gateway.processMastercardPayment(100n * (10n ** 18n), 'USD', '0x583031D1113aD414F02576BD6afaBfb302140225') // مسترکارت
+                .then(result => alert(`پرداخت موفق! مبلغ تبدیل‌شده: ${result.convertedAmount} USD`))
+                .catch(err => alert(`خطا: ${err.message}`));
+        });
+
+        // رشد روزانه هر روز (cron-like در JS)
+        setInterval(() => gateway.dailyGrowth(), 86400000); // 24 ساعت
+    </script>
+</body>
+</html>
+**********************************************************************************
+openssl req -new -newkey rsa:2048 -nodes -keyout private.key -out csr.csr -subj "/C=US/ST=State/L=City/O=Org/CN=yourdomain.com"
+*******************************************************************************
+END FOR NOW .........Dr.SHAHIN.....M.......R......................................................D   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
