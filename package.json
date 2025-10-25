@@ -1,0 +1,6 @@
+{
+  "name": "irancoin-khafan",
+  "version": "1.0.0",
+  "scripts": { "gen": "node metadata-gen.js" },
+  "dependencies": { "ethers": "^5.7.2", "fs": "0.0.1-security" }
+}
