@@ -1,0 +1,36 @@
+{
+  "name": "IRANcoin Global Reserve Tokens",
+  "logoURI": "https://i.ibb.co/Cp2WQ46s/IRANcoin-LLC-FOR-IRAN-PEOPLE-200x200x.png",
+  "keywords": ["global-reserve", "iranian-crypto", "backed-stablecoin", "defi-bank"],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0x49BA5D9A00115D494a01fb938EBd94BD919AA445",
+      "name": "IRANcoin Global Reserve",
+      "symbol": "IRcoin",
+      "decimals": 18,
+      "logoURI": "https://i.ibb.co/Cp2WQ46s/IRANcoin-LLC-FOR-IRAN-PEOPLE-200x200x.png",
+      "tags": ["global-reserve", "backed-stablecoin", "iranian-innovation", "fed-worldbank-eligible"],
+      "description": "IRANcoin Global Reserve (IRCOIN): Decentralized global bank on Base, backed by gold/oil/banks/crypto. Deploy May 18, 2025; 7.2e38 supply; 168 holders. Partners: Elon Musk, Iranian Royal Family. Listings: MEXC/Uniswap/ICOHolder/CoinRanking/LiveCoinWatch/CoinScope/CryptoNextGem/CoinVote/CoinCheckup/CoinBazooka/CoinDiscovery/Top100Token/CoinSniper/CoinBoom/Perplexity/SushiSwap/DexView/CoinTopList. Blockscout verified (green tick). YouTube: https://www.youtube.com/watch?v=smoazBykgiM. Mastercard ID: ePTNyKK_zD3lOwJ-pCAG-0OG9-ylBqJU-_SFHvHhc1c7588b. NYSE ETF/Fed/World Bank ready.",
+      "website": "https://irancoin.godaddysites.com",
+      "extensions": {
+        "twitter": "https://x.com/IRANcoinGlobal",
+        "youtube": "https://www.youtube.com/watch?v=smoazBykgiM",
+        "holders": 168,
+        "totalSupply": "720000000000000000000000000000000000000000000000000000000000",
+        "blockchain": "Base",
+        "contractVerifier": "https://basescan.org/token/0x49BA5D9A00115D494a01fb938EBd94BD919AA445",
+        "blockscout": "https://base.blockscout.com/token/0x49BA5D9A00115D494a01fb938EBd94BD919AA445",
+        "mexcArticle": "https://www.mexc.com/news/irancoin-global-reserve-ircoin-launches-to-reshape-global-digital-payments/140208",
+        "mastercardId": "ePTNyKK_zD3lOwJ-pCAG-0OG9-ylBqJU-_SFHvHhc1c7588b",
+        "partners": ["Elon Musk", "Iranian Royal Family"],
+        "vision": "Global bank for luxury payments (jets/yachts/estates) – NYSE/Fed/World Bank reserve asset"
+      }
+    }
+  ]
+}
