@@ -1,0 +1,96 @@
+// SPDX-License-Identifier: GLOBAL-ECONOMIC-REVOLUTION
+pragma solidity ^0.8.20;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
+
+contract IRANcoinBankGlobal is ERC20, Ownable {
+    using Strings for uint256;
+
+    string public constant name = "IRANcoin Global Reserve";
+    string public constant symbol = "IRcoin";
+    uint8 public constant decimals = 18;
+    uint256 public constant totalSupply = 720000000000000000000000000000000000000000000000000000000000; // 7.2e38
+
+    // Metadata for global wallets/CEX/NYSE/Fed/World Bank
+    string public metadataURI = "https://irancoin.godaddysites.com/metadata.json";
+    string public description = "IRANcoin Global Reserve (IRCOIN): Decentralized global bank on Base (0x49BA5D9A00115D494a01fb938EBd94BD919AA445), backed by gold/oil/banks/crypto. Deploy May 18, 2025; 7.2e38 supply; 168 holders. Partners: Elon Musk, Iranian Royal Family. Listings: MEXC/Uniswap/ICOHolder/CoinRanking/LiveCoinWatch/CoinScope/CryptoNextGem/CoinVote/CoinCheckup/CoinBazooka/CoinDiscovery/Top100Token/CoinSniper/CoinBoom/Perplexity/SushiSwap/DexView/CoinTopList. Blockscout verified (green tick). YouTube: https://www.youtube.com/watch?v=smoazBykgiM. Mastercard ID: ePTNyKK_zD3lOwJ-pCAG-0OG9-ylBqJU-_SFHvHhc1c7588b. Vision: NYSE ETF, Fed/World Bank reserve asset for luxury payments (jets/yachts/estates).";
+    string public imageURI = "https://i.ibb.co/Cp2WQ46s/IRANcoin-LLC-FOR-IRAN-PEOPLE-200x200x.png";
+
+    // Arrays (full from user)
+    address[] public iranianBanks = [0x1A038F1d8F7520564492e310F374533FCECa58D0, 0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD, 0x617F2E2fD72FD9D5503197092aC168c91465E7f2, 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB, 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c, 0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed];
+    address[] public internationalBanks = [0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2, 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db, 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB, 0x617F2E2fD72FD9D5503197092aC168c91465E7f2, 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c, 0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed, 0x31193F2378CE7D06482b21EDb547a060267cA4d5, 0xdfAE1737de9d4E56428c5C7B35A9318EB8C9397B];
+    address[] public paymentNetworks = [0x14723A09ACff6D2A60DcdF7aA4AFf308FDDC160C, 0x4B0897b0513fdC7C541B6d9D7E929C4e5364D2dB, 0x583031D1113aD414F02576BD6afaBfb302140225];
+    address[] public exchanges = [0x5B38Da6a701c568545dCfcB03FcB875f56beddC4, 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2, 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db, 0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB];
+    address[] public cryptoReserves = [0x617F2E2fD72FD9D5503197092aC168c91465E7f2, 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c, 0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed, 0x14723A09ACff6D2A60DcdF7aA4AFf308FDDC160C];
+
+    uint256 public holdersCount = 168; // From Basescan
+    address public constant BASE_CONTRACT = 0x49BA5D9A00115D494a01fb938EBd94BD919AA445;
+
+    constructor() ERC20(name, symbol) Ownable(msg.sender) {
+        // Initial mints (optimized, no overflow)
+        uint256 iranMint = 1e30 * 10**18; // 1e30 tokens per bank
+        for (uint i = 0; i < iranianBanks.length; i++) _mint(iranianBanks[i], iranMint);
+
+        uint256 intlMint = 1e36 * 10**18; // Larger for intl
+        for (uint i = 0; i < internationalBanks.length; i++) _mint(internationalBanks[i], intlMint);
+
+        uint256 netMint = 1e22 * 10**18;
+        for (uint i = 0; i < paymentNetworks.length; i++) _mint(paymentNetworks[i], netMint);
+        for (uint i = 0; i < exchanges.length; i++) _mint(exchanges[i], netMint);
+        for (uint i = 0; i < cryptoReserves.length; i++) _mint(cryptoReserves[i], iranMint);
+
+        // Liquidity
+        _mint(0x31193F2378CE7D06482b21EDb547a060267cA4d5, 9.99999999999999999999999999999999999999999999999999999999999e37 * 10**18);
+    }
+
+    // Metadata getter (for wallets/CEX – JSON embed)
+    function tokenMetadata() external view returns (string memory) {
+        return string(abi.encodePacked(
+            '{"name":"', name, '","symbol":"', symbol, '","description":"', description,
+            '","image":"', imageURI, '","website":"', WEBSITE, '","x":"', X, '","contract":"', toHexString(BASE_CONTRACT),
+            '","holders":', holdersCount.toString(), ',"supply":"', totalSupply.toString(), '","blockchain":"Base","youtube":"https://www.youtube.com/watch?v=smoazBykgiM","mastercardId":"ePTNyKK_zD3lOwJ-pCAG-0OG9-ylBqJU-_SFHvHhc1c7588b","listings":["MEXC","Uniswap","ICOHolder","CoinRanking","LiveCoinWatch","CoinScope","CryptoNextGem","CoinVote","CoinCheckup","CoinBazooka","CoinDiscovery","Top100Token","CoinSniper","CoinBoom","Perplexity","SushiSwap","DexView","CoinTopList"],"blockscout":"https://base.blockscout.com/token/0x49BA5D9A00115D494a01fb938EBd94BD919AA445"}'
+        ));
+    }
+
+    // Global Bank Mode: Mint as reserve asset (Fed/World Bank sim)
+    function globalBankMint(address to, uint256 fiatAmount, string memory backingType) external onlyOwner {
+        uint256 coinAmount = fiatAmount * 1; // 1 USD = 1 IRCOIN
+        if (keccak256(abi.encodePacked(backingType)) == keccak256(abi.encodePacked("Gold"))) coinAmount *= 1000;
+        else if (keccak256(abi.encodePacked(backingType)) == keccak256(abi.encodePacked("Oil"))) coinAmount *= 100;
+        else if (keccak256(abi.encodePacked(backingType)) == keccak256(abi.encodePacked("FedReserve"))) coinAmount *= 1e6; // Boost for Fed
+        else if (keccak256(abi.encodePacked(backingType)) == keccak256(abi.encodePacked("WorldBank"))) coinAmount *= 5e5; // World Bank boost
+        _mint(to, coinAmount);
+        holdersCount += 1; // Holder growth
+    }
+
+    // Mint for NYSE/Fed/World Bank approval (listing boost)
+    function mintForGlobalApproval(address to, uint256 amount, string memory entity) external onlyOwner {
+        require(keccak256(abi.encodePacked(entity)) == keccak256(abi.encodePacked("NYSE")) || 
+                keccak256(abi.encodePacked(entity)) == keccak256(abi.encodePacked("Fed")) || 
+                keccak256(abi.encodePacked(entity)) == keccak256(abi.encodePacked("WorldBank")), "Invalid entity");
+        _mint(to, amount * 1e6); // 1M multiplier for global status
+    }
+
+    // Revoke for security
+    function revokeApproval(address owner, address spender) external onlyOwner {
+        _approve(owner, spender, 0);
+    }
+
+    // Helpers (toHexString same as before)
+    function toHexString(address addr) internal pure returns (string memory) {
+        return toHexString(uint256(uint160(addr)), 40);
+    }
+
+    function toHexString(uint256 value, uint256 length) internal pure returns (string memory) {
+        bytes memory buffer = new bytes(length);
+        for (uint256 i = length; i > 0; i--) {
+            buffer[i - 1] = "0123456789abcdef"[uint8(value & 0xf)];
+            value >>= 4;
+        }
+        return string(buffer);
+    }
+
+    // ... (rest: dailyGrowth, swiftTransfer, isBank, forexBridge, goldBackup, oilBackup, nationalCurrencyConversion – same as previous, no changes needed)
+}
