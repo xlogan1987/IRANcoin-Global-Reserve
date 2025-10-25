@@ -1,0 +1,22 @@
+# IRANcoin Global Reserve - Khafan Upgrade 🚀💰
+
+**Global Bank Vision**: IRANcoin (IRCOIN) – Decentralized reserve currency on Base (0x49BA5D9A00115D494a01fb938EBd94BD919AA445), 7.2e38 supply, 168 holders. Backed by gold/oil/banks/crypto, partners Elon Musk/Iranian Royal Family. Listings: MEXC, Uniswap, ICOHolder, CoinRanking, LiveCoinWatch, CoinScope, CryptoNextGem, CoinVote, CoinCheckup, CoinBazooka, CoinDiscovery, Top100Token, CoinSniper, CoinBoom, Perplexity, SushiSwap, DexView, CoinTopList. YouTube: https://www.youtube.com/watch?v=smoazBykgiM. Mastercard ID: ePTNyKK_zD3lOwJ-pCAG-0OG9-ylBqJU-_SFHvHhc1c7588b.
+
+## Features
+- **Metadata Gen**: JSON for MetaMask/Trust Wallet/Exodus (import custom token).
+- **Listing Automation**: Emails for CEX (MEXC/Binance), NYSE ETF proposal.
+- **Bank Global Mode**: Mint backed by reserves, daily 1% growth.
+- **Vercel Deploy**: Frontend/Backend ready – Fiat to IRCOIN.
+
+## Quick Start
+1. `npm i ethers fs`
+2. `node metadata-gen.js` – Outputs JSON/emails.
+3. Git push: `git add .; git commit -m "Khafan IRANcoin upgrade"; git push`.
+4. Vercel: Connect GitHub repo – Auto deploy (env: CONTRACT_ADDRESS=0x49BA5D9A...).
+
+## Listings Guide
+- **Wallets**: Use generated JSON – Submit PR to MetaMask repo (github.com/MetaMask/eth-contract-metadata).
+- **CEX**: Send emails from script to listings@mexc.com/binance.com.
+- **NYSE**: Proposal JSON for SEC EDGAR filing – First Iranian crypto ETF!
+
+Revolutionize global finance! Love from Shahin Maleki Rad. 🌍💎
