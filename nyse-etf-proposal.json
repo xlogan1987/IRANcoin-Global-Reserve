@@ -1,0 +1,29 @@
+{
+  "title": "IRANcoin Global Reserve ETF – First Iranian-Backed Crypto ETF for NYSE Arca Listing",
+  "issuer": "IRANcoin LLC",
+  "symbol": "IRCOIN-ETF",
+  "underlyingContract": "0x49BA5D9A00115D494a01fb938EBd94BD919AA445",
+  "chain": "Base",
+  "description": "IRANcoin Global Reserve (IRCOIN) ETF: Track IRCOIN (7.2e38 supply, 168 holders, deployed May 18, 2025) as global reserve asset. Backed by gold/oil/banks/crypto reserves. Partners: Elon Musk, Iranian Royal Family. Listings: MEXC/Uniswap/ICOHolder/CoinRanking/LiveCoinWatch/CoinScope/CryptoNextGem/CoinVote/CoinCheckup/CoinBazooka/CoinDiscovery/Top100Token/CoinSniper/CoinBoom/Perplexity/SushiSwap/DexView/CoinTopList. Blockscout verified (green tick). AUM potential: $1B+ with low volume emerging DEX. Vision: NYSE debut as luxury payment bank (jets/yachts/estates). YouTube: https://www.youtube.com/watch?v=smoazBykgiM. Mastercard bridge ready (ID: ePTNyKK_zD3lOwJ-pCAG-0OG9-ylBqJU-_SFHvHhc1c7588b).",
+  "backingAssets": ["Gold (0.001g/IRCOIN)", "Oil (0.01bbl/IRCOIN)", "Iranian/Intl Banks", "ETH/DOGE/XRP/USDT Reserves"],
+  "metrics": {
+    "holders": 168,
+    "supply": "7.2e38",
+    "volume": "Emerging DEX (Uniswap/PancakeSwap)",
+    "deployDate": "2025-05-18"
+  },
+  "partners": ["Elon Musk", "Iranian Royal Family", "MEXC Exchange"],
+  "links": {
+    "website": "https://irancoin.godaddysites.com",
+    "x": "https://x.com/IRANcoinGlobal",
+    "mexcArticle": "https://www.mexc.com/news/irancoin-global-reserve-ircoin-launches-to-reshape-global-digital-payments/140208",
+    "basescan": "https://basescan.org/token/0x49BA5D9A00115D494a01fb938EBd94BD919AA445",
+    "blockscout": "https://base.blockscout.com/token/0x49BA5D9A00115D494a01fb938EBd94BD919AA445",
+    "youtube": "https://www.youtube.com/watch?v=smoazBykgiM"
+  },
+  "image": "https://i.ibb.co/Cp2WQ46s/IRANcoin-LLC-FOR-IRAN-PEOPLE-200x200x.png",
+  "secForm": "S-1 (Registration Statement for ETF)",
+  "nyseCategory": "Crypto ETF – Global Reserve Innovation",
+  "aumTarget": "1B USD",
+  "mastercardIntegration": "ID: ePTNyKK_zD3lOwJ-pCAG-0OG9-ylBqJU-_SFHvHhc1c7588b – Fiat on-ramp ready"
+}
